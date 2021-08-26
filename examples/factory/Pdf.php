@@ -6,5 +6,5 @@ class Pdf implements Page
     echo "new ".__CLASS__.' page<br>';
   }
 }
-
+ 
  ?>

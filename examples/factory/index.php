@@ -5,7 +5,7 @@ spl_autoload_register(function ($class_name) {
 
 $factory = new Factory;
 
-$pdf = $factory->getPage('pdf');
+$pdf = $factory->getPage('pdf'); 
 //$pdf->createPage();
 
 $docx = $factory->getPage('docx');
